@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+<body>
+    <p>Чему будет равно JS-выражение 1000 + "108"?</p>
+    <p>Результат будет <b id="answer"></b> потому что в JavaScript знак плюс определен как к числам, так и к строкам, поэтому интерпретатор конверитрует 1000 в строку и конкатенирует с 108</p>
+    <p>Чтобы ответ был верным, необходимо привести строку "108" к числу, например, унарной операцией '+', а потом уже применять операцию сложения. В этом случае результат будет следующим: <b id="answer2"></b></p>
+    <script>
+        document.getElementById("answer").innerText = 1000 + "108";
+        document.getElementById("answer2").innerText = 1000 + +"108";
+    </script>
+</body>
+</html>
