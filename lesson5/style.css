@@ -1,0 +1,35 @@
+#cart{
+
+}
+#catalog{
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.product{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.product-header{
+    width: 100%;
+    text-align: center;
+}
+.product-header img{
+    margin-bottom: 10px;
+}
+.product-name{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.product-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.product-price{
+
+}
+.product-button{
+
+}
